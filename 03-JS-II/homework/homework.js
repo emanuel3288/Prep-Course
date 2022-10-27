@@ -185,6 +185,7 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   //bandera
   let elNumeroEsPrimo=true;
+  
   if( numero===0 || numero ===1) {
     return !elNumeroEsPrimo;
   }
@@ -211,7 +212,10 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  let multiplosDelSeis=[0,6,12,18,24,30,36,42,48,54,60];
+  let multiplosDeSeis=[];
+  for(var i=0; i<11;i++) {
+    multiplosDeSeis[i]=6*i;
+  }
   return multiplosDelSeis;
 }
 
