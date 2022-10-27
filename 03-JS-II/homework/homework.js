@@ -216,7 +216,7 @@ function tablaDelSeis(){
   for(var i=0; i<11;i++) {
     multiplosDeSeis[i]=6*i;
   }
-  return multiplosDelSeis;
+  return multiplosDeSeis;
 }
 
 function tieneTresDigitos(numero){
